@@ -1,0 +1,789 @@
+﻿<!--A Design by W3layouts
+Author: W3layout Matheus Vinnicius Volney Victor 
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported                    
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Página Inicial | Tutorie.me</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Stretch a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Mallanna" rel="stylesheet">
+	<link rel="shortcut icon" href="images/ico.png" type="image/x-icon" />	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">	
+	<link href="css/about.css" rel='stylesheet' type='text/css' />
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var pesq =  false;
+			var list = false;
+		
+			$(".pesq").click(function(){
+				if ($(".pesq a").hasClass("search-is-visible")){
+					pesq = true;			
+					if (list){
+						$("#bs-example-navbar-collapse-1").removeClass("collapse in");
+						$("#bs-example-navbar-collapse-1").addClass("collapse");
+						list = false;
+					}
+				}
+				else{
+					pesq = false;
+				}
+
+			});
+			$("#botao_lista").click(function(){
+				list = true;
+				if (pesq){
+					$("#cd-search").removeClass("is-visible");
+					$(".pesq a").removeClass("search-is-visible")
+					pesq = false;
+				}
+
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<!--Header-->
+	<!--<div class="top-bar_sub_w3layouts_agile">
+		<!--<h6>MAKE CREATIVITY A HABIT <a href="contact.html">Contact Us </a></h6>
+		<div class="search" style="width: auto; display: flex; justify-content: center; align-items: center;">
+			<h5 style="margin-top:5px"><a style="padding-right: 20px;" class="sign" href="#" data-toggle="modal" data-target="#myModal2">Login</a></h5>
+			<!--<div class="cd-main-header float-right">
+				<ul class="cd-header-buttons">
+					<li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
+				</ul>
+				<!-- cd-header-buttons --><!--
+			</div>
+			<a class="cd-search-trigger" href="#cd-search"> <span></span></a>
+			<div id="cd-search" class="cd-search">
+				<form action="#" method="post">
+					<input name="Search" type="search" placeholder="Pressione enter para pesquisar">
+				</form>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<div class="header" id="home">-->
+
+		<!--/top-bar-->
+		<div class="top-bar">
+			<div class="header-nav-agileits">
+
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->				
+					
+
+					<div class="navbar-header">						
+						<button id="botao_lista" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="height: 44px;">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+
+						<div class="pesq" style="float: right; padding-right: 20px;">
+							<a class="cd-search-trigger" href="#cd-search" style> <span></span></a>
+						</div>	
+
+						<h1><a class="navbar-brand" href="index.html">Tutorie.me <span>Tutoria Online</span></a></h1>
+					</div>
+					
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<nav>
+							<ul class="top_nav">
+								<li><a href="index.html" class="active">Página inicial</a></li>
+								<li><a href="courses.html">Tutorias</a></li>
+								<li><a href="join.html">Junte-se a nós</a></li>
+								<li><a href="#" data-toggle="modal" data-target="#myModal2">Entrar</a></li>
+								<li id="pesq2"><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
+								
+							</ul>
+						</nav>
+					</div>
+					<div class="clearfix"></div>
+				</nav>
+
+				<div id="cd-search" class="cd-search" style="margin-top: 16px;">
+					<form action="#" method="post">
+						<input name="Search" type="search" placeholder="Pressione enter para pesquisar">
+					</form>
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+		<!--//top-bar-->
+		<!-- banner-text -->
+		<div class="slider">
+			<div class="callbacks_container">
+				<ul class="rslides callbacks callbacks1" id="slider4">
+					<li>
+						<div class="banner-top">
+							<div class="banner-info-w3ls-agileinfo">
+								<h3>Aprenda em qualquer lugar a qualquer hora</h3>
+							</div>
+
+						</div>
+					</li>
+					<li>
+						<div class="banner-top1">
+							<div class="banner-info-w3ls-agileinfo">
+								<h3>Use seus conhecimentos para ensinar</h3>
+							</div>
+
+						</div>
+					</li>
+					<!--<li>
+						<div class="banner-top2">
+							<div class="banner-info-w3ls-agileinfo">
+								<h3>Opportunities For Lifelong Learning.</h3>
+								<a href="about.html">Read More <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+								<a href="contact.html">Contact Us <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+							</div>
+
+						</div>
+					</li>	-->				
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+
+			<!--banner Slider starts Here-->
+		</div>
+		<!--//Slider-->
+	
+	<!-- Modal1 -->
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+					<div class="signin-form profile">
+
+						<div class="login-m_page_img">
+
+							<img src="images/model.jpg" alt=" " class="img-responsive" />
+
+						</div>
+						<div class="login-m_page">
+							<h3 class="sign">Entrar</h3>
+							<div class="login-form-wthree-agile">
+								<form action="#" method="post">
+									<input type="email" name="email" placeholder="E-mail" required="">
+									<input type="password" name="password" placeholder="Senha" required="">
+									<div class="tp">
+										<input type="submit" value="Entrar">
+									</div>
+								</form>
+							</div>
+							<div class="login-social-grids">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								</ul>
+							</div>
+							<p><a href="#" data-toggle="modal" data-target="#myModal3"> Não tem uma conta?</a></p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Modal1 -->
+	<!-- Modal2 -->
+	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+					<div class="signin-form profile">
+
+						<div class="login-m_page_img">
+
+							<img src="images/model.jpg" alt=" " class="img-responsive" />
+
+						</div>
+						<div class="login-m_page">
+							<h3 class="sign">Cadastrar</h3>
+							<div class="login-form-wthree-agile">
+								<form action="#" method="post">
+									<input type="text" name="name" placeholder="Nome de usuário" required="">
+									<input type="email" name="email" placeholder="Email" required="">
+									<input type="password" name="password" placeholder="Senha" required="">
+									<input type="password" name="password" placeholder="Confirmar senha" required="">
+									<input type="submit" value="Cadastre-se">
+								</form>
+							</div>
+							<!--<p><a href="#"> By clicking Sign up, I agree to your terms</a></p>-->
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //Modal2 -->
+
+	<!--//Header-->
+	<!--/banner_bottom-->
+	<div class="banner_bottom">
+		<div class="banner_bottom_in">
+			<h3 class="headerw3">Aprenda e ensine</h3>
+
+			<p>Ajude as pessoas a estudar, compartilhe conhecimento e ganhe dinheiro. Ensine sempre que quiser - O Tutorie.me oferece uma 
+              maneira flexível de trabalho. Sem escritórios, sem chefes. Nós orientaremos você pelas etapas e notificaremos quando você 
+              estiver pronto para ensinar. Nós oferecemos os recursos mais recentes que ajudam você a se concentrar em ensinar e ganhar 
+              dinheiro. Você nos informa seu currículo, sua formação acadêmica e as áreas que deseja ajudar pessoas compartilhando conhecimento,
+              após isso você deve nos atualizar com a frequência que desejar a sua disponibilidade de tempo para ensina e vamos  avisá-lo 
+              quando houver oportunidades especiais para compartilhar conhecimento e ganhar dinheiro. Cada monitoria que você faz é totalmente
+              online nosso sistemas de vídeo chamadas e bate papo online com segurança e proteção. Você receberá pagamento cada vez que ensinar</p>
+
+			<!--<div class="edu_button">
+				<a class="btn btn-primary btn-lg" href="about.html" role="button">Leia mais </a>
+			</div>
+			<iframe src="https://www.youtube.com/embed/HndV87XpkWg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+		</div>
+	</div>
+	<!--//banner_bottom-->
+	<!--<div class="sec_video">
+		<div class="container">
+			<div class="about-main about1">
+				<div class="col-md-4 about-gd">
+					<div class="about-sub-gd">
+						<h4>Curated Classes</h4>
+						<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis </p>
+					</div>
+					<div class="about-sub-gd">
+						<h4>Expert Instructors</h4>
+						<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis </p>
+					</div>
+				</div>
+				<div class="col-md-4 about-gd1">
+					<img src="images/video.jpg" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-4 about-gd ab-right">
+					<div class="about-sub-gd">
+						<h4>Students Strong</h4>
+						<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis </p>
+					</div>
+					<div class="about-sub-gd">
+						<h4>Physical Activity</h4>
+						<p>Sed congue elit malesuada nibh, a varius odio vehicula aliquet. Aliquam consequat, nunc quis </p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>-->
+	<!--/video-->
+	<!--/what-wedo-->
+	<!--<div class="top_spl_courses">
+		<div class="container">
+			<h3 class="headerw3">3 Different Layouts</h3>
+			<div class="inner_sec_w3_agileinfo">
+
+				<div class="col-md-6 edu-left">
+					<h4 class="sub-hdng two">For Your Digital Life</h4>
+					<p class="paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+						eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+					<p class="paragraph two">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+						eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+
+				</div>
+				<div class="col-md-6 edu_img">
+					<img src="images/stretch.jpg" alt=" " class="img-responsive">
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>-->
+	<!--/what-wedo-->
+
+	<!--/what-wedo-->
+	<!--<div class="what-wedo">
+		<div class="container">
+			<h3 class="headerw3 two">Career Advice</h3>
+			<div class="inner_sec_w3_agileinfo">
+				<div class="wedo-main">
+					<div class="wedo-right">
+
+					</div>
+					<div class="wedo-left">
+						<h4 class="sub-hdng">Grow Your Digital Skills With Accenture</h4>
+						<p class="paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+							eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<h4 class="sub-hdng">Our team of professionals have experience in</h4>
+						<p class="paragraph"><span class="fa fa-check" aria-hidden="true"></span>Lorem Ipsum</p>
+						<p class="paragraph"><span class="fa fa-check" aria-hidden="true"></span>perspiciatis</p>
+						<p class="paragraph"><span class="fa fa-check" aria-hidden="true"></span>inventore</p>
+						<p class="paragraph"><span class="fa fa-check" aria-hidden="true"></span>accusantium</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>-->
+	<!--/what-wedo-->
+	<!--/services-->
+  <!--
+	<div class="services">
+		<div class="container">
+			<h3 class="headerw3">Cursos ofertados</h3>
+			<div class="inner_sec_w3_agileinfo">
+				<div class="col-md-4 grid_info_main">
+					<div class="grid_info">
+						<div class="icon_info">
+							<span class="fa fa-line-chart" aria-hidden="true"></span>
+							<h5>Financial Analyst Course</h5>
+							<p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+						</div>
+					</div>
+					<div class="grid_info second">
+						<div class="icon_info">
+							<span class="fa fa-bookmark" aria-hidden="true"></span>
+							<h5>Discipline</h5>
+							<p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 grid_info_main">
+					<div class="grid_info">
+						<div class="icon_info">
+							<span class="fa fa-bicycle" aria-hidden="true"></span>
+							<h5>Sport Exercise Sciences</h5>
+							<p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+						</div>
+					</div>
+					<div class="grid_info second">
+						<div class="icon_info">
+							<span class="fa fa-female" aria-hidden="true"></span>
+							<h5>Life style</h5>
+							<p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 grid_info_main">
+					<div class="grid_info">
+						<div class="icon_info">
+							<span class="fa fa-laptop" aria-hidden="true"></span>
+							<h5>It and Software</h5>
+							<p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+						</div>
+					</div>
+					<div class="grid_info second">
+						<div class="icon_info">
+							<span class="fa fa-home" aria-hidden="true"></span>
+							<h5>Interior Design</h5>
+							<p>Lorem ipsum dolor sit amet,vehicula vel sapien et, feugiat sapien amet.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>-->
+	<!--//services-->
+	<!--/top_spl_courses-->
+	<div class="top_spl_courses">
+		<div class="container">
+			<h3 class="headerw3">Áreas de Ajuda</h3>
+			<div class="inner_sec_w3_agileinfo">
+				<div class="mid_slider">
+					<!-- banner -->
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+						</ol>
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<div class="row">
+									<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+										<div class="thumbnail"><img src="images/eletronica.jpeg" alt="Image" style="max-width:100%;"></div>
+										<h5>Eletrônica</h5>
+									</div>
+									<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+										<div class="thumbnail"><img src="images/g6.jpg" alt="Image" style="max-width:100%;"></div>
+										<h5>Português</h5>
+									</div>
+									<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+										<div class="thumbnail"><img src="images/biologia.jpeg" alt="Image" style="max-width:100%;"></div>
+										<h5>Biologia </h5>
+									</div>
+									<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+										<div class="thumbnail"><img src="images/ingles.jpeg" alt="Image" style="max-width:100%;"></div>
+										<h5>Inglês</h5>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="row">
+									<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+										<div class="thumbnail"><img src="images/quimica.jpeg" alt="Image" style="max-width:100%;"></div>
+										<h5>Química</h5>
+									</div>
+									<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+										<div class="thumbnail"><img src="images/fisica.jpeg" alt="Image" style="max-width:100%;"></div>
+										<h5>Física</h5>
+									</div>
+									<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+										<div class="thumbnail"><img src="images/math.jpeg" alt="Image" style="max-width:100%;"></div>
+										<h5>Matemática</h5>
+									</div>
+									<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+										<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"></div>
+										<h5>Computação</h5>
+									</div>
+								</div>
+							</div>													
+						</div>
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							<span class="fa fa-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Voltar</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="fa fa-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Próxima</span>
+					</a>
+						<!-- The Modal -->
+					</div>
+				</div>
+				<!--//slider-->
+			</div>
+		</div>
+	</div>
+	<!--//top_spl_courses-->
+
+  	<!--what-we-do-->
+	<div class="top_spl_courses">
+		<div class="container">
+			<h3 class="headerw3">Como funciona?</h3>
+			<div class="inner_sec_w3_agileinfo">
+				<div class="tabs-grids">
+					<div id="parentVerticalTab">
+						<ul class="resp-tabs-list hor_1">
+							<li>Aprenda</li>
+							<li>Tutores</li>
+
+						</ul>
+						<div class="resp-tabs-container hor_1">
+							<div class="text-info">
+								<h4>Aprenda</h4>
+								<p>Se cadastrando, você terá acesso a inúmeros tutores nos mais variados assuntos e das mais variadas formações. Tire suas dúvidas e aprenda coisa novas </p>
+								<!--<p class="sec">Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+									voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+									ex ea commodi consequatur.</p>-->
+								<img src="images/banner2.jpg" alt=" " class="img-responsive" />
+
+							</div>
+
+							<div class="text-info">
+								<h4>Tutores</h4>
+								<p>Os tutores são pessoas comuns que dominam algum assunto e estão dispostas a ensinar. </p>
+								<p class="sec">Se você acha que conhece muito sobre alguma coisa ou tem experiência prática em alguma área e tem disposição de ajudar outros, cadastre-se,
+                                  ensine e ganhe dinheiro!</p>
+                              <img src="images/banner3.jpg" alt=" " class="img-responsive" />
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//what-we-do-->	
+  
+	<!-- /stats -->
+	<div class="stats_test">
+		<h3 class="headerw3 two">Estatísticas</h3>
+		<div class="inner_sec_w3_agileinfo">
+			<div class="stats">
+				<div class="stats_left counter_grid">
+					<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+					<p class="counter">546</p>
+					<h4>Tutores</h4>
+				</div>
+				<div class="stats_left counter_grid1">
+					<i class="fa fa-group" aria-hidden="true"></i>
+					<p class="counter">7689</p>
+					<h4>Usuários</h4>
+				</div>
+				<div class="stats_left counter_grid2">
+					<i class="far fa-clock" aria-hidden="true"></i>
+					<p class="counter">27811</p>
+					<h4>Horas gastas</h4>
+				</div>
+				<div class="stats_left counter_grid3">
+					<i class="fa fa-smile-o" aria-hidden="true"></i>
+					<p class="counter">6983</p>
+					<h4>Usuários satisfeitos</h4>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //stats -->
+
+	<!-- /newsletter--><!--
+	<div class="newsletter">
+		<div class="col-sm-6 newsleft">
+			<h3>Sign up for Newsletter !</h3>
+		</div>
+		<div class="col-sm-6 newsright">
+			<form action="#" method="post">
+				<input type="email" placeholder="Enter your email..." name="email" required="">
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+
+		<div class="clearfix"></div>
+	</div>-->
+	<!-- //newsletter-->
+	
+	<div class="tesimonials">
+		<div class="container">
+			<h3 class="headerw3 two">Comentário dos usuários</h3>
+			<div class="inner_sec_w3_agileinfo">
+				<div class="test_grid_sec">
+					<div class="col-md-offset-2 col-md-8">
+						<div class="carousel slide two" data-ride="carousel" id="quote-carousel">
+							<!-- Bottom Carousel Indicators -->
+							<ol class="carousel-indicators two">
+								<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+								<li data-target="#quote-carousel" data-slide-to="1"></li>
+								<li data-target="#quote-carousel" data-slide-to="2"></li>
+							</ol>
+
+							<!-- Carousel Slides / Quotes -->
+							<div class="carousel-inner">
+
+								<!-- Quote 1 -->
+								<div class="item active">
+									<blockquote>
+										<div class="test_grid">
+											<div class="col-sm-3 text-center test_img">
+												<i class="fa fa-user" aria-hidden="true"></i>
+
+											</div>
+											<div class="col-sm-9 test_img_info">
+												<p>Melhor lugar para tirar dúvidas.</p>
+												<h6>Matheus Soares</h6>
+											</div>
+										</div>
+									</blockquote>
+								</div>
+								<!-- Quote 2 -->
+								<div class="item">
+									<blockquote>
+										<div class="test_grid">
+											<div class="col-sm-3 text-center test_img">
+												<i class="fa fa-user" aria-hidden="true"></i>
+											</div>
+											<div class="col-sm-9 test_img_info">
+												<p>Posso ganhar dinheiro apenas ensinando o que aprendi.</p>
+												<h6>Pedro Cavalcantti</h6>
+											</div>
+										</div>
+									</blockquote>
+								</div>
+								<!-- Quote 3 -->
+								<div class="item">
+									<blockquote>
+										<div class="test_grid">
+											<div class="col-sm-3 text-center test_img">
+												<i class="fa fa-user" aria-hidden="true"></i>
+											</div>
+											<div class="col-sm-9 test_img_info">
+												<p>Professores bons e atenciosos a um preço que cabe no bolso!</p>
+												<h6>Alice Martins</h6>
+											</div>
+										</div>
+									</blockquote>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- bootstrap-modal-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					Luscious
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<img src="images/model.jpg" alt=" " class="img-responsive" />
+					<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+						consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+						vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //bootstrap-modal-pop-up -->
+	<!--footer-->
+	<div class="contact-footer-w3layouts-agile">
+
+		<div class="bottom-social-agileits-w3ls">
+			<div class="container">
+				<div class="col-md-8 botttom-nav-w3ls-agileits">
+					<ul class="f_links thrd col-md-4">
+						<li>
+							<a href="index.html">Página Inicial</a>
+						</li>
+						<li>
+							<a href="courses.html">Tutorias</a>
+						</li>
+						<li>
+							<a href="join.html">Junte-se a nós</a>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-4 social-icons-wthree">
+					<h6>Conecte-se e entre em contato conosco</h6>
+					<a class="facebook" href="#"><span class="fa fa-facebook"></span></a>
+					<a class="twitter" href="#"><span class="fa fa-twitter"></span></a>
+					<a class="pinterest" href="#"><span class="fa fa-pinterest-p"></span></a>
+					<a class="linkedin" href="#"><span class="fa fa-linkedin"></span></a>
+				</div>
+				<div class="clearfix"></div>
+
+			</div>
+		</div>
+		<div class="copy-w3-agileits">
+			<h2 class="footer-logo"><a href="index.html">Tutorie.me <span> Tutoria Online</span></a></h2>
+			<p>© 2018 Tutorie.me | Todos os direitos reservados | Design by <a href="http://w3layouts.com/">Tutorie.me Group</a> </p>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!--/footer -->
+
+
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!--search-bar-->
+	<script src="js/main.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider4").responsiveSlides({
+				auto: true,
+				pager: true,
+				nav: true,
+				speed: 1000,
+				namespace: "callbacks",
+				before: function () {
+					$('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+					$('.events').append("<li>after event fired.</li>");
+				}
+			});
+		});
+	</script>
+	<!--//search-bar-->
+	<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
+	<script src="js/easyResponsiveTabs.js"></script>
+	<!--Plug-in Initialisation-->
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+			//Vertical Tab
+			$('#parentVerticalTab').easyResponsiveTabs({
+				type: 'vertical', //Types: default, vertical, accordion
+				width: 'auto', //auto or any width like 600px
+				fit: true, // 100% fit in a container
+				closed: 'accordion', // Start closed if in accordion view
+				tabidentify: 'hor_1', // The tab groups identifier
+				activate: function (event) { // Callback function if tab is switched
+					var $tab = $(this);
+					var $info = $('#nested-tabInfo2');
+					var $name = $('span', $info);
+					$name.text($tab.text());
+					$info.show();
+				}
+			});
+		});
+	</script>
+	<!--/script-->
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 900);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling -->
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+									var defaults = {
+							  			containerID: 'toTop', // fading element id
+										containerHoverID: 'toTopHover', // fading element hover id
+										scrollSpeed: 1200,
+										easingType: 'linear' 
+							 		};
+									*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+
+
+</body>
+
+</html>
